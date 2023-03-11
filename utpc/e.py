@@ -9,6 +9,6 @@ if k != 0:
         else: 
             ans += n+1 - (r*k)
 else:
-    ans = n(n-1)/2
+    ans = (n * (n-1))>>1
 print(ans)
 
